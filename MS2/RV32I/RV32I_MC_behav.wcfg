@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RV32I_MC_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RV32I_MC" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="916283533333fs"></ZoomStartTime>
+      <ZoomEndTime time="916293693334fs"></ZoomEndTime>
+      <Cursor1Time time="916292000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="74" />
+   <wvobject fp_name="/RV32I_MC/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/ddata" type="array">
+      <obj_property name="ElementShortName">ddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/alu_res" type="array">
+      <obj_property name="ElementShortName">alu_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/ext_pc" type="logic">
+      <obj_property name="ElementShortName">ext_pc</obj_property>
+      <obj_property name="ObjectShortName">ext_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/branch_flag" type="logic">
+      <obj_property name="ElementShortName">branch_flag</obj_property>
+      <obj_property name="ObjectShortName">branch_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/load_imem" type="logic">
+      <obj_property name="ElementShortName">load_imem</obj_property>
+      <obj_property name="ObjectShortName">load_imem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/pc_en" type="logic">
+      <obj_property name="ElementShortName">pc_en</obj_property>
+      <obj_property name="ObjectShortName">pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/dec_en" type="logic">
+      <obj_property name="ElementShortName">dec_en</obj_property>
+      <obj_property name="ObjectShortName">dec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/iex_en" type="logic">
+      <obj_property name="ElementShortName">iex_en</obj_property>
+      <obj_property name="ObjectShortName">iex_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rf_en" type="logic">
+      <obj_property name="ElementShortName">rf_en</obj_property>
+      <obj_property name="ObjectShortName">rf_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/bres_en" type="logic">
+      <obj_property name="ElementShortName">bres_en</obj_property>
+      <obj_property name="ObjectShortName">bres_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/alu_en" type="logic">
+      <obj_property name="ElementShortName">alu_en</obj_property>
+      <obj_property name="ObjectShortName">alu_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/dex_en" type="logic">
+      <obj_property name="ElementShortName">dex_en</obj_property>
+      <obj_property name="ObjectShortName">dex_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_en" type="logic">
+      <obj_property name="ElementShortName">wb_en</obj_property>
+      <obj_property name="ObjectShortName">wb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/regdata1" type="array">
+      <obj_property name="ElementShortName">regdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/regdata2" type="array">
+      <obj_property name="ElementShortName">regdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/immediate_32bits" type="array">
+      <obj_property name="ElementShortName">immediate_32bits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_32bits[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/alu_data2" type="array">
+      <obj_property name="ElementShortName">alu_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/alu_op1" type="array">
+      <obj_property name="ElementShortName">alu_op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/alu_op2" type="array">
+      <obj_property name="ElementShortName">alu_op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/dmem_data" type="array">
+      <obj_property name="ElementShortName">dmem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/dmemdata_32bits" type="array">
+      <obj_property name="ElementShortName">dmemdata_32bits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmemdata_32bits[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux1_out" type="array">
+      <obj_property name="ElementShortName">wb_mux1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mux1_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux2_out" type="array">
+      <obj_property name="ElementShortName">wb_mux2_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mux2_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_data" type="array">
+      <obj_property name="ElementShortName">wb_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/ProgramCounter" type="array">
+      <obj_property name="ElementShortName">ProgramCounter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ProgramCounter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/store_control_w" type="array">
+      <obj_property name="ElementShortName">store_control_w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">store_control_w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/ie_control_w" type="array">
+      <obj_property name="ElementShortName">ie_control_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ie_control_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/branch_control_w" type="array">
+      <obj_property name="ElementShortName">branch_control_w[2:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_control_w[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/de_control_w" type="array">
+      <obj_property name="ElementShortName">de_control_w[2:0]</obj_property>
+      <obj_property name="ObjectShortName">de_control_w[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/AluOP_w" type="array">
+      <obj_property name="ElementShortName">AluOP_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AluOP_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rs1_w" type="array">
+      <obj_property name="ElementShortName">rs1_w[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_w[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rs2_w" type="array">
+      <obj_property name="ElementShortName">rs2_w[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_w[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rd_w" type="array">
+      <obj_property name="ElementShortName">rd_w[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_w[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/immediate_short_w" type="array">
+      <obj_property name="ElementShortName">immediate_short_w[11:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_short_w[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/immediate_long_w" type="array">
+      <obj_property name="ElementShortName">immediate_long_w[19:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_long_w[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/op2_mux1_cntl_w" type="logic">
+      <obj_property name="ElementShortName">op2_mux1_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">op2_mux1_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/op2_mux2_cntl_w" type="logic">
+      <obj_property name="ElementShortName">op2_mux2_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">op2_mux2_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/op1_mux_cntl_w" type="logic">
+      <obj_property name="ElementShortName">op1_mux_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">op1_mux_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/br_en_w" type="logic">
+      <obj_property name="ElementShortName">br_en_w</obj_property>
+      <obj_property name="ObjectShortName">br_en_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/load_en_w" type="logic">
+      <obj_property name="ElementShortName">load_en_w</obj_property>
+      <obj_property name="ObjectShortName">load_en_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/store_en_w" type="logic">
+      <obj_property name="ElementShortName">store_en_w</obj_property>
+      <obj_property name="ObjectShortName">store_en_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wr_en_w" type="logic">
+      <obj_property name="ElementShortName">wr_en_w</obj_property>
+      <obj_property name="ObjectShortName">wr_en_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux1_cntl_w" type="logic">
+      <obj_property name="ElementShortName">wb_mux1_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">wb_mux1_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux2_cntl_w" type="logic">
+      <obj_property name="ElementShortName">wb_mux2_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">wb_mux2_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux3_cntl_w" type="logic">
+      <obj_property name="ElementShortName">wb_mux3_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">wb_mux3_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/pc_mux_cntl_w" type="logic">
+      <obj_property name="ElementShortName">pc_mux_cntl_w</obj_property>
+      <obj_property name="ObjectShortName">pc_mux_cntl_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/store_control" type="array">
+      <obj_property name="ElementShortName">store_control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">store_control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/ie_control" type="array">
+      <obj_property name="ElementShortName">ie_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ie_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/branch_control" type="array">
+      <obj_property name="ElementShortName">branch_control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_control[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/de_control" type="array">
+      <obj_property name="ElementShortName">de_control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">de_control[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/AluOP" type="array">
+      <obj_property name="ElementShortName">AluOP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AluOP[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/immediate_short" type="array">
+      <obj_property name="ElementShortName">immediate_short[11:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_short[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/immediate_long" type="array">
+      <obj_property name="ElementShortName">immediate_long[19:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_long[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/op2_mux1_cntl" type="logic">
+      <obj_property name="ElementShortName">op2_mux1_cntl</obj_property>
+      <obj_property name="ObjectShortName">op2_mux1_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/op2_mux2_cntl" type="logic">
+      <obj_property name="ElementShortName">op2_mux2_cntl</obj_property>
+      <obj_property name="ObjectShortName">op2_mux2_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/op1_mux_cntl" type="logic">
+      <obj_property name="ElementShortName">op1_mux_cntl</obj_property>
+      <obj_property name="ObjectShortName">op1_mux_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/br_en" type="logic">
+      <obj_property name="ElementShortName">br_en</obj_property>
+      <obj_property name="ObjectShortName">br_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/load_en" type="logic">
+      <obj_property name="ElementShortName">load_en</obj_property>
+      <obj_property name="ObjectShortName">load_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/store_en" type="logic">
+      <obj_property name="ElementShortName">store_en</obj_property>
+      <obj_property name="ObjectShortName">store_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux1_cntl" type="logic">
+      <obj_property name="ElementShortName">wb_mux1_cntl</obj_property>
+      <obj_property name="ObjectShortName">wb_mux1_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux2_cntl" type="logic">
+      <obj_property name="ElementShortName">wb_mux2_cntl</obj_property>
+      <obj_property name="ObjectShortName">wb_mux2_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/wb_mux3_cntl" type="logic">
+      <obj_property name="ElementShortName">wb_mux3_cntl</obj_property>
+      <obj_property name="ObjectShortName">wb_mux3_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/pc_mux_cntl" type="logic">
+      <obj_property name="ElementShortName">pc_mux_cntl</obj_property>
+      <obj_property name="ObjectShortName">pc_mux_cntl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RV32I_MC/data_width" type="array">
+      <obj_property name="ElementShortName">data_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_width[31:0]</obj_property>
+   </wvobject>
+</wave_config>
